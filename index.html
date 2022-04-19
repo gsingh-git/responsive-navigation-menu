@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>Collapsible sidebar using Bootstrap 3</title>
+
+	<!-- Bootstrap CSS CDN -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	
+
+	<link rel="stylesheet"	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+		<link href="assest/style.css" rel="stylesheet">
+	<script src="assest/script.js"></script>	
+</head>
+
+<body>
+	<header class="section-header">
+		<section class="header-main border-bottom">
+			<div class="container-fluid">
+				<div class="row align-items-center">
+					
+					<div class="col-lg-3 col-sm-4 col-md-4 col-5"> 
+						<a href="#" class="brand-wrap" data-abc="true">
+							<!-- <img class="logo" src="http://ampexamples.com/data/upload/2017/08/bootstrap2_logo.png"> -->
+							 <span class="logo">BBBOOTSTRAP</span> 
+							</a> 
+						</div>
+					<div class="col-lg-4 col-xl-5 col-sm-8 col-md-4 d-none d-md-block">
+						<form action="#" class="search-wrap">
+							<div class="input-group w-100"> <input type="text" class="form-control search-form" style="width:55%;" placeholder="Search">
+								<div class="input-group-append"> <button class="btn btn-primary search-button" type="submit"> <i class="fa fa-search"></i> </button> </div>
+							</div>
+						</form>
+					</div>
+					<div class="col-lg-5 col-xl-4 col-sm-8 col-md-4 col-7">
+						<div class="d-flex justify-content-end"> <a target="_blank" href="#" data-abc="true" class="nav-link widget-header"> <i class="fas fa fa-whatsapp"></i></a> <span class="vl"></span>
+							<div class="dropdown btn-group"> <a class="nav-link nav-icons" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-abc="true"><i class="fas fa fa-bell"></i></a>
+								<ul class="dropdown-menu dropdown-menu-right notification-dropdown">
+									<li>
+										<div class="notification-title">More Info</div>
+										<div class="notification-list">
+											<div class="list-group"> <a href="affiliates" class="list-group-item list-group-item-action active" data-abc="true">
+													<div class="notification-info">
+														<div class="notification-list-user-img"><img src="https://img.icons8.com/nolan/100/000000/helping-hand.png" alt="" class="user-avatar-md rounded-circle"></div>
+														<div class="notification-list-user-block"><span class="notification-list-user-name">Affiliate program</span> </div>
+													</div>
+												</a> <a href="redemption-center" class="list-group-item list-group-item-action active" data-abc="true">
+													<div class="notification-info">
+														<div class="notification-list-user-img"><img src="https://img.icons8.com/bubbles/100/000000/prize.png" alt="" class="user-avatar-md rounded-circle"></div>
+														<div class="notification-list-user-block"><span class="notification-list-user-name">Redemption Center</span> </div>
+													</div>
+												</a> <a href="#" class="list-group-item list-group-item-action active" data-abc="true">
+													<div class="notification-info">
+														<div class="notification-list-user-img"><img src="https://img.icons8.com/ultraviolet/100/000000/medal.png" alt="" class="user-avatar-md rounded-circle"></div>
+														<div class="notification-list-user-block"><span class="notification-list-user-name">Achievements</span> </div>
+													</div>
+												</a> <a href="#" class="list-group-item list-group-item-action active" data-abc="true">
+													<div class="notification-info">
+														<div class="notification-list-user-img"><img src="https://img.icons8.com/bubbles/100/000000/call-female.png" alt="" class="user-avatar-md rounded-circle"></div>
+														<div class="notification-list-user-block"><span class="notification-list-user-name">Contact us</span> </div>
+													</div>
+												</a> </div>
+										</div>
+									</li>
+								</ul>
+							</div> <span class="vl"></span> <a class="nav-link nav-user-img" href="#" data-toggle="modal" data-target="#login-modal" data-abc="true"><span class="login">LOGIN</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>		
+		<nav class="navbar navbar-expand-md navbar-main border-bottom">
+			<div class="container-fluid">
+				<form class="d-md-none my-2">
+					<div class="input-group"> <input type="search" name="search" class="form-control" placeholder="Search" required="">
+						<div class="input-group-append"> <button type="submit" class="btn btn-secondary"> <i class="fa fa-search"></i> </button> </div>
+					</div>
+				</form> <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#dropdown6" aria-expanded="false"> <span class="navbar-toggler-icon"></span> </button>
+				<div class="navbar-collapse collapse" id="dropdown6" style="">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown" data-abc="true" aria-expanded="false">Laptops</a>
+							<div class="dropdown-menu"> <a class="dropdown-item" href="" data-abc="true">Lenovo</a> <a class="dropdown-item" href="" data-abc="true">Dell</a> <a class="dropdown-item" href="" data-abc="true">HP</a> <a class="dropdown-item" href="" data-abc="true">Apple</a> </div>
+						</li>
+						<li class="nav-item"> <a class="nav-link" href="" data-abc="true">Refurbished Mobile</a> </li>
+						<li class="nav-item"> <a class="nav-link" href="" data-abc="true">Accessories & Peripheral</a> </li>
+						<li class="nav-item"> <a class="nav-link" href="" data-abc="true">Blog</a> </li>
+						<li class="nav-item"> <a class="nav-link" href="" data-abc="true">Support</a> </li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<div id="content">
+		<div> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper. Lacus viverra vitae congue eu consequat ac felis donec. Lobortis mattis aliquam faucibus purus. Nulla pellentesque dignissim enim sit amet venenatis urna. Duis at tellus at urna condimentum mattis. Morbi tempus iaculis urna id volutpat lacus laoreet non curabitur. Eu augue ut lectus arcu. Turpis egestas integer eget aliquet. Viverra mauris in aliquam sem fringilla ut morbi. Nisl tincidunt eget nullam non nisi est. Ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia. Sed egestas egestas fringilla phasellus faucibus. Turpis massa tincidunt dui ut ornare lectus sit amet. Viverra mauris in aliquam sem. Imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque. Nibh sed pulvinar proin gravida hendrerit lectus a.
+			Erat imperdiet sed euismod nisi porta lorem mollis aliquam. Molestie a iaculis at erat. Lacus suspendisse faucibus interdum posuere lorem. Phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. Eget sit amet tellus cras adipiscing enim eu turpis egestas. Auctor elit sed vulputate mi. Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam. Morbi tincidunt augue interdum velit euismod in pellentesque. Auctor eu augue ut lectus arcu. Mollis aliquam ut porttitor leo a diam sollicitudin tempor. Leo urna molestie at elementum eu facilisis sed. Massa tincidunt nunc pulvinar sapien et. Viverra orci sagittis eu volutpat odio facilisis. Turpis massa tincidunt dui ut ornare lectus sit. Vitae tempus quam pellentesque nec nam aliquam sem et.
+			Blandit massa enim nec dui nunc mattis enim ut. Nisi porta lorem mollis aliquam ut porttitor. Morbi blandit cursus risus at ultrices. Tincidunt vitae semper quis lectus. Penatibus et magnis dis parturient montes nascetur ridiculus. Ac orci phasellus egestas tellus rutrum tellus pellentesque. Blandit turpis cursus in hac habitasse. Et egestas quis ipsum suspendisse ultrices gravida dictum fusce. Ultricies integer quis auctor elit sed vulputate. Felis imperdiet proin fermentum leo.
+			Enim ut sem viverra aliquet eget. Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet. Sit amet mauris commodo quis imperdiet massa. Tellus rutrum tellus pellentesque eu tincidunt. Cursus metus aliquam eleifend mi in. Tristique nulla aliquet enim tortor at auctor. Suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Tortor condimentum lacinia quis vel. Suspendisse interdum consectetur libero id faucibus. Lacus luctus accumsan tortor posuere ac ut consequat semper.
+			Nisl purus in mollis nunc sed id semper risus in. Tempor orci eu lobortis elementum nibh tellus molestie nunc non. Tellus mauris a diam maecenas sed enim. Ac odio tempor orci dapibus ultrices in iaculis nunc. In hac habitasse platea dictumst vestibulum rhoncus. Maecenas sed enim ut sem viverra aliquet eget. Habitasse platea dictumst quisque sagittis purus sit amet. Aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar proin. Facilisis sed odio morbi quis commodo odio. Suscipit adipiscing bibendum est ultricies integer quis auctor elit. Vitae congue eu consequat ac felis donec et odio. Id venenatis a condimentum vitae sapien pellentesque habitant morbi.
+			Ac tincidunt vitae semper quis. Dui sapien eget mi proin sed libero enim sed faucibus. Elementum integer enim neque volutpat ac. Augue lacus viverra vitae congue eu consequat ac. Placerat duis ultricies lacus sed turpis tincidunt. Consectetur adipiscing elit duis tristique sollicitudin. Tincidunt tortor aliquam nulla facilisi cras. Sit amet justo donec enim. Non quam lacus suspendisse faucibus interdum. Nibh venenatis cras sed felis eget velit aliquet.
+			Diam sollicitudin tempor id eu. Nunc sed velit dignissim sodales ut eu sem integer vitae. Mattis molestie a iaculis at. Mattis pellentesque id nibh tortor. Est sit amet facilisis magna etiam tempor orci eu. A diam maecenas sed enim ut sem viverra aliquet. Adipiscing commodo elit at imperdiet dui accumsan. Varius vel pharetra vel turpis nunc eget lorem dolor. Proin nibh nisl condimentum id venenatis a. Ultricies mi eget mauris pharetra et ultrices neque.
+			At volutpat diam ut venenatis tellus in metus. Lacinia at quis risus sed vulputate odio ut. Convallis tellus id interdum velit laoreet. Auctor eu augue ut lectus arcu bibendum at varius. Cras sed felis eget velit aliquet sagittis id consectetur purus. Placerat duis ultricies lacus sed turpis tincidunt. Morbi tristique senectus et netus et malesuada. Risus viverra adipiscing at in tellus integer. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget. Sem viverra aliquet eget sit amet tellus cras adipiscing. Urna id volutpat lacus laoreet. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Nec sagittis aliquam malesuada bibendum arcu vitae. Diam donec adipiscing tristique risus nec. Non tellus orci ac auctor augue mauris augue neque gravida.
+			Dignissim convallis aenean et tortor at risus viverra. Ut eu sem integer vitae justo eget magna fermentum iaculis. Cursus in hac habitasse platea. Faucibus nisl tincidunt eget nullam non nisi est. Turpis nunc eget lorem dolor sed viverra ipsum nunc. Non diam phasellus vestibulum lorem. Eget egestas purus viverra accumsan in. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac. Ornare lectus sit amet est. Morbi tincidunt augue interdum velit euismod. Et netus et malesuada fames. Nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Posuere urna nec tincidunt praesent semper feugiat nibh sed. Consequat semper viverra nam libero justo. Massa id neque aliquam vestibulum morbi.
+			Libero justo laoreet sit amet cursus sit amet dictum. Turpis egestas pretium aenean pharetra magna ac. Tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus. Rutrum quisque non tellus orci ac auctor augue mauris augue. Sit amet tellus cras adipiscing enim eu. Duis tristique sollicitudin nibh sit amet. Enim ut tellus elementum sagittis. Urna et pharetra pharetra massa massa ultricies. Quis viverra nibh cras pulvinar mattis. At elementum eu facilisis sed odio morbi quis.
+			Ornare arcu odio ut sem nulla pharetra diam. Potenti nullam ac tortor vitae purus faucibus ornare suspendisse. Risus pretium quam vulputate dignissim suspendisse in est ante. Quis enim lobortis scelerisque fermentum dui. Aliquet risus feugiat in ante. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu. Convallis posuere morbi leo urna molestie. In metus vulputate eu scelerisque. In eu mi bibendum neque egestas congue. Vitae tortor condimentum lacinia quis vel eros. In vitae turpis massa sed. Lectus urna duis convallis convallis tellus id. Quis hendrerit dolor magna eget est lorem. Arcu vitae elementum curabitur vitae nunc sed velit. Convallis aenean et tortor at risus viverra adipiscing at. Cursus sit amet dictum sit amet justo donec enim.
+			Porttitor lacus luctus accumsan tortor posuere ac ut. Aliquet sagittis id consectetur purus ut faucibus. Tempor id eu nisl nunc mi ipsum. Nunc sed velit dignissim sodales ut eu sem integer. Quis imperdiet massa tincidunt nunc pulvinar sapien et ligula. Facilisi etiam dignissim diam quis. Pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl. Turpis massa sed elementum tempus egestas sed sed risus. Sit amet tellus cras adipiscing enim eu turpis egestas pretium. Tellus elementum sagittis vitae et leo duis. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ornare arcu odio ut sem nulla. Tempor nec feugiat nisl pretium fusce id velit ut. Fusce ut placerat orci nulla pellentesque.
+			Aliquet eget sit amet tellus. Et leo duis ut diam quam nulla porttitor massa. Massa sapien faucibus et molestie ac feugiat sed. Sapien faucibus et molestie ac feugiat sed lectus. Proin sagittis nisl rhoncus mattis rhoncus urna. Justo nec ultrices dui sapien eget mi proin sed. Eu scelerisque felis imperdiet proin. Cursus turpis massa tincidunt dui ut ornare lectus sit. In cursus turpis massa tincidunt dui ut ornare lectus sit. Vitae et leo duis ut diam quam. In egestas erat imperdiet sed euismod. Tellus mauris a diam maecenas sed enim ut. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus aenean.
+			Imperdiet dui accumsan sit amet. Massa enim nec dui nunc. Dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu. In eu mi bibendum neque egestas. Ullamcorper velit sed ullamcorper morbi tincidunt. Mi proin sed libero enim sed faucibus turpis. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Proin nibh nisl condimentum id venenatis a. Id velit ut tortor pretium viverra suspendisse potenti. Sed viverra tellus in hac. Non curabitur gravida arcu ac tortor. Egestas erat imperdiet sed euismod nisi porta lorem mollis. Lorem sed risus ultricies tristique nulla aliquet enim tortor. Dignissim diam quis enim lobortis scelerisque. Urna et pharetra pharetra massa massa ultricies mi. Senectus et netus et malesuada fames ac turpis egestas maecenas. Nisl suscipit adipiscing bibendum est ultricies. Viverra tellus in hac habitasse.
+			Ipsum dolor sit amet consectetur adipiscing elit. Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Eu consequat ac felis donec et odio pellentesque diam. Fermentum dui faucibus in ornare quam viverra orci. Egestas congue quisque egestas diam in arcu cursus euismod quis. Magna fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec. Sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus. Purus semper eget duis at tellus at. Amet nulla facilisi morbi tempus iaculis urna id. Pretium lectus quam id leo in. Volutpat diam ut venenatis tellus in metus vulputate eu scelerisque. Pharetra massa massa ultricies mi. Sed egestas egestas fringilla phasellus faucibus. Leo integer malesuada nunc vel. Arcu bibendum at varius vel pharetra vel turpis nunc. Faucibus scelerisque eleifend donec pretium vulputate sapien nec. Morbi tincidunt augue interdum velit. Nisl nunc mi ipsum faucibus vitae aliquet.
+			Adipiscing elit pellentesque habitant morbi tristique senectus et. Ornare lectus sit amet est placerat in. Ac felis donec et odio pellentesque diam. Neque vitae tempus quam pellentesque nec nam aliquam. Sodales ut etiam sit amet. Id interdum velit laoreet id donec ultrices. Purus semper eget duis at tellus at urna condimentum mattis. Gravida neque convallis a cras semper auctor neque vitae. Leo vel fringilla est ullamcorper eget. Potenti nullam ac tortor vitae purus. Sit amet consectetur adipiscing elit duis tristique. Dignissim cras tincidunt lobortis feugiat vivamus at. Magna ac placerat vestibulum lectus mauris ultrices eros in. Nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Interdum velit laoreet id donec.
+			Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer. Sed adipiscing diam donec adipiscing tristique risus nec. Orci a scelerisque purus semper. Curabitur gravida arcu ac tortor dignissim convallis aenean. Risus viverra adipiscing at in tellus. Ac auctor augue mauris augue neque gravida. Tortor pretium viverra suspendisse potenti. Mattis enim ut tellus elementum. Id velit ut tortor pretium viverra suspendisse potenti nullam. Faucibus in ornare quam viverra. Consequat semper viverra nam libero justo laoreet sit amet. Sit amet porttitor eget dolor morbi non arcu. Ac tortor vitae purus faucibus ornare suspendisse. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Volutpat sed cras ornare arcu. Diam sit amet nisl suscipit adipiscing bibendum est. Leo vel orci porta non pulvinar neque laoreet suspendisse interdum. Arcu cursus euismod quis viverra nibh. Nulla facilisi cras fermentum odio eu feugiat pretium nibh.
+			At augue eget arcu dictum varius duis at consectetur. Id donec ultrices tincidunt arcu non sodales neque sodales ut. Adipiscing diam donec adipiscing tristique risus nec feugiat. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Mauris nunc congue nisi vitae suscipit tellus mauris a. Vulputate eu scelerisque felis imperdiet proin fermentum leo. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo. Ut porttitor leo a diam sollicitudin tempor id eu. Est velit egestas dui id ornare arcu odio ut sem. Sit amet facilisis magna etiam tempor. Faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Id volutpat lacus laoreet non curabitur. Quam lacus suspendisse faucibus interdum posuere lorem ipsum.
+			Neque gravida in fermentum et. Id faucibus nisl tincidunt eget nullam non nisi est. Nunc pulvinar sapien et ligula. Auctor augue mauris augue neque gravida in fermentum et sollicitudin. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa. Eu turpis egestas pretium aenean pharetra magna ac placerat. Congue quisque egestas diam in. Nunc non blandit massa enim nec dui nunc mattis. Eget magna fermentum iaculis eu non diam phasellus vestibulum. Sit amet mauris commodo quis imperdiet massa tincidunt nunc. Eget sit amet tellus cras adipiscing enim. Euismod quis viverra nibh cras pulvinar mattis nunc sed blandit. Enim nulla aliquet porttitor lacus luctus. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam.
+			Maecenas accumsan lacus vel facilisis volutpat est velit. Urna molestie at elementum eu facilisis sed. Consequat mauris nunc congue nisi vitae suscipit tellus. Enim neque volutpat ac tincidunt vitae semper. Bibendum arcu vitae elementum curabitur vitae nunc. Volutpat sed cras ornare arcu dui vivamus arcu felis. Neque aliquam vestibulum morbi blandit cursus risus at. Justo eget magna fermentum iaculis eu non diam phasellus vestibulum. Mattis pellentesque id nibh tortor id aliquet lectus proin nibh. Ipsum dolor sit amet consectetur. Duis tristique sollicitudin nibh sit amet. Sit amet facilisis magna etiam tempor orci eu.
+			Maecenas accumsan lacus vel facilisis volutpat. Faucibus pulvinar elementum integer enim neque volutpat ac. Elit at imperdiet dui accumsan sit amet nulla facilisi. Quam adipiscing vitae proin sagittis. Nisl vel pretium lectus quam id leo in. Arcu vitae elementum curabitur vitae nunc sed velit dignissim. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant morbi. Viverra justo nec ultrices dui sapien eget mi proin sed. Dolor sit amet consectetur adipiscing elit. Nibh ipsum consequat nisl vel. Amet aliquam id diam maecenas ultricies. Enim neque volutpat ac tincidunt vitae. Viverra orci sagittis eu volutpat odio facilisis mauris. Auctor urna nunc id cursus metus aliquam. Augue eget arcu dictum varius duis at consectetur lorem donec. Et odio pellentesque diam volutpat commodo sed egestas.
+			Consequat ac felis donec et. Magna sit amet purus gravida quis. Suspendisse sed nisi lacus sed viverra tellus in. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Mattis rhoncus urna neque viverra. Scelerisque felis imperdiet proin fermentum leo vel. Elementum eu facilisis sed odio morbi quis commodo odio aenean. Donec adipiscing tristique risus nec feugiat in fermentum posuere. Interdum velit euismod in pellentesque massa placerat. Vestibulum mattis ullamcorper velit sed ullamcorper morbi. Nisl nisi scelerisque eu ultrices. Sit amet tellus cras adipiscing enim eu. Risus feugiat in ante metus dictum at. Leo duis ut diam quam nulla. Leo urna molestie at elementum eu facilisis. Interdum consectetur libero id faucibus nisl tincidunt eget. Mi quis hendrerit dolor magna eget est lorem ipsum. Ut porttitor leo a diam sollicitudin.
+			Quam id leo in vitae turpis massa. Morbi quis commodo odio aenean sed adipiscing diam donec adipiscing. Nibh praesent tristique magna sit amet. Enim sed faucibus turpis in. Volutpat lacus laoreet non curabitur gravida arcu ac. Arcu dictum varius duis at. Ultrices eros in cursus turpis massa tincidunt dui ut. Enim ut tellus elementum sagittis vitae et. Quis ipsum suspendisse ultrices gravida dictum fusce ut placerat orci. Eu tincidunt tortor aliquam nulla. Facilisis mauris sit amet massa vitae.
+			Diam quis enim lobortis scelerisque fermentum dui faucibus. Scelerisque eu ultrices vitae auctor eu augue. Sed faucibus turpis in eu mi bibendum neque. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Volutpat blandit aliquam etiam erat velit scelerisque in. Arcu vitae elementum curabitur vitae nunc sed velit dignissim. Morbi tempus iaculis urna id volutpat lacus laoreet. Consectetur lorem donec massa sapien faucibus. Potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed. Vel facilisis volutpat est velit egestas dui id ornare. Commodo ullamcorper a lacus vestibulum sed arcu non. Risus commodo viverra maecenas accumsan lacus vel. Velit egestas dui id ornare arcu odio ut sem. Maecenas volutpat blandit aliquam etiam erat. Dictum sit amet justo donec. Egestas erat imperdiet sed euismod nisi porta lorem mollis aliquam.
+			Tellus elementum sagittis vitae et leo duis ut diam quam. Duis at consectetur lorem donec. Sed blandit libero volutpat sed cras ornare arcu dui vivamus. Duis at tellus at urna condimentum mattis. Posuere morbi leo urna molestie at elementum eu facilisis. Pharetra sit amet aliquam id diam maecenas ultricies mi eget. Et sollicitudin ac orci phasellus egestas tellus rutrum. Nunc faucibus a pellentesque sit. Quis lectus nulla at volutpat diam ut venenatis tellus in. Dis parturient montes nascetur ridiculus mus. Est ultricies integer quis auctor elit sed vulputate. Platea dictumst quisque sagittis purus sit amet volutpat consequat mauris. Libero id faucibus nisl tincidunt eget nullam non nisi.
+		</div>
+	</div>
+	 
+
+	<!-- jQuery CDN -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Bootstrap Js CDN -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			var stickyOffset = $('nav').offset().top;
+			console.log("stickyOffset", stickyOffset);
+            $(window).scroll(function(){
+                if ($(window).scrollTop() >= stickyOffset){
+                    $('nav').addClass('cusSticky');
+                    //this makes the page length equal to what it was before fixing nav
+                    $('.nav-spacer').show(0); 
+                }
+                else {
+                    $('nav').removeClass('cusSticky');
+                    $('.nav-spacer').hide(0);
+                }
+            });
+		});
+	</script>
+</body>
+
+</html>
